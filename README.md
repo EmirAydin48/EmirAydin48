@@ -9,7 +9,7 @@ I am a Second-year Electrical & Electronics Engineering student @ Marmara Univer
 
 ## Projects
 
-### [Dual-MCU Industrial IoT Gateway & FOTA (Internship Project)](https://github.com/EmirAydin48/dual-mcu-gateway-system) (Internship Case Study)
+### [Dual-MCU Industrial IoT Gateway & FOTA (Internship Project)](https://github.com/EmirAydin48/dual-mcu-gateway-system) (Case Study)
 Fault-tolerant telemetry gateway designed to modernize legacy equipment without disrupting real-time control loops.
 
 - **Objective:** Add secure cloud connectivity to legacy devices while preserving deterministic real-time behavior.
