@@ -1,6 +1,6 @@
-# Hi there 👋. I am Emir Aydin.
-
 **Available Languages:** [English](README.md) | [Türkçe](README_TR.md)
+
+# Hi there 👋, I am Emir Aydin.
 
 I am a Second-year Electrical & Electronics Engineering student @ Marmara University, focused on embedded systems and digital design.  
 🔍 I am Open to embedded systems / firmware internships in İstanbul & Bursa.
@@ -47,8 +47,7 @@ Hardware-accelerated autonomous control system inspired by heliotropic behavior.
 
 - **Embedded / Firmware:** C, FreeRTOS, STM32 HAL, ESP-IDF, (basic) Java  
 - **Digital Design:** VHDL, Vivado, FPGA (Artix-7 / Basys 3), Logisim  
-- **Interfaces & Peripherals:** UART, SPI, I2C, DMA, ADC, Timers, PWM  
-- **Workflow:** Git, documentation (Obsidian)  
+- **Interfaces & Peripherals:** UART, SPI, I2C, DMA, ADC, Timers, PWM 
 - **Debug / Bring-up:** ST-LINK (SWD), UART logging, oscilloscope, board-level debugging
 
 ---
