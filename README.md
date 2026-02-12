@@ -1,9 +1,9 @@
 **Available Languages:** [English](README.md) | [Türkçe](README_TR.md)
 
-# Hi there 👋, I am Emir Aydin.
+# Hi there 👋, I'm Emir Aydin.
 
-I am a Second-year Electrical & Electronics Engineering student @ Marmara University, focused on embedded systems and digital design.  
-🔍 I am Open to embedded systems / firmware internships in İstanbul & Bursa.
+I'm a Second-year Electrical & Electronics Engineering student @ Marmara University, focused on embedded systems and digital design.  
+🔍 I'm open to embedded systems / firmware internships in İstanbul & Bursa.
 
 ---
 
