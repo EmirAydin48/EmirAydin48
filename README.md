@@ -38,7 +38,7 @@ Hardware-accelerated autonomous control system inspired by heliotropic behavior.
 - **Project:** Tracking system that orients toward dominant light sources using FPGA-based control.
 - **Key engineering work:**
   - Implemented the control loop fully in hardware (no MCU in the loop) to exploit parallelism and precise timing.
-  - Added a custom IIR digital filter for signal conditioning.
+  - Added a custom low-pass filter for signal conditioning.
   - Wrote a bare-metal HD44780 LCD driver with microsecond-level timing.
 - **Tech stack:** VHDL, XADC, PWM generation  
 
