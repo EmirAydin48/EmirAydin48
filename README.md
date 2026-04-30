@@ -14,7 +14,7 @@ Fault-tolerant telemetry gateway designed to modernize legacy equipment without 
 
 - **Objective:** Adding cloud connectivity to legacy devices while preserving deterministic real-time behavior.
 - **Architecture:** Designed a dual-MCU system where ESP32 handles networking and STM32 runs the real-time control/telemetry logic.
-- **Key Design Work:**
+- **Key Engineering Work:**
   - Built a non-blocking telemetry pipeline using DMA-driven UART to send data to the server
   - Built a non-blocking command execution pipeline that processes remote commands without stalling the main loop.
   - Built an update pipeline that downloads an update from the server and stores the firmware in an external flash memory.
