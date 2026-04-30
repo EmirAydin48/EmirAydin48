@@ -9,7 +9,7 @@ I'm a Second-year Electrical & Electronics Engineering student @ Marmara Univers
 
 ## Projects
 
-### [Dual-MCU Gateway System (Internship Project)](https://github.com/EmirAydin48/dual-mcu-gateway-system) (Case Study)
+### [Dual-MCU Gateway System (Internship Project) (Case Study)](https://github.com/EmirAydin48/dual-mcu-gateway-system) 
 Fault-tolerant telemetry gateway designed to modernize legacy equipment without disrupting real-time control loops.
 
 - **Objective:** Adding cloud connectivity to legacy devices while preserving deterministic real-time behavior.
