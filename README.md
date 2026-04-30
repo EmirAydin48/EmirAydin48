@@ -23,7 +23,7 @@ Fault-tolerant telemetry gateway designed to modernize legacy equipment without 
 
 ---
 
-### [FPGA-Based Hardware Cryptography Engine (Research)](https://github.com/EmirAydin48/VHDL-Hardware-Cryptographic-Engine)
+### [FPGA-Based Hardware Cryptography Circuit (Research)](https://github.com/EmirAydin48/VHDL-Hardware-Cryptographic-Engine)
 Exploration of cryptographic structures and implementation tradeoffs on FPGA.
 
 - **Project:** Custom cryptographic core synthesized on an Artix-7 FPGA.
@@ -46,7 +46,7 @@ Hardware-accelerated autonomous control system inspired by heliotropic behavior.
 
 ## Skills
 
-- **Embedded / Firmware:** C, FreeRTOS, STM32 HAL, ESP-IDF, (basic) Java  
+- **Embedded / Firmware:** C, FreeRTOS, STM32 HAL, ESP-IDF  
 - **Digital Design:** VHDL, Vivado, FPGA (Artix-7 / Basys 3), Logisim  
 - **Interfaces & Peripherals:** UART, SPI, I2C, DMA, ADC, Timers, PWM 
 - **Debug / Bring-up:** ST-LINK (SWD), UART logging, oscilloscope, board-level debugging
