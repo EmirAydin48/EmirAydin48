@@ -9,15 +9,16 @@ I'm a Second-year Electrical & Electronics Engineering student @ Marmara Univers
 
 ## Projects
 
-### [Dual-MCU Industrial IoT Gateway & FOTA (Internship Project)](https://github.com/EmirAydin48/dual-mcu-gateway-system) (Case Study)
+### [Dual-MCU Gateway System (Internship Project)](https://github.com/EmirAydin48/dual-mcu-gateway-system) (Case Study)
 Fault-tolerant telemetry gateway designed to modernize legacy equipment without disrupting real-time control loops.
 
-- **Objective:** Add secure cloud connectivity to legacy devices while preserving deterministic real-time behavior.
-- **Architecture:** Designed a dual-MCU system where ESP32 handles networking/security (gateway + firewall role) and STM32 runs the real-time control/telemetry logic.
-- **Key engineering work:**
-  - Built a non-blocking telemetry pipeline using DMA-driven UART to stream sensor data and process remote commands without stalling the main loop.
-  - Implemented a custom Stop-and-Wait ARQ protocol for reliability under tight memory constraints.
-  - Developed a streaming AES-CTR decryption pipeline capable of installing updates with <4 KB RAM usage.
+- **Objective:** Adding cloud connectivity to legacy devices while preserving deterministic real-time behavior.
+- **Architecture:** Designed a dual-MCU system where ESP32 handles networking and STM32 runs the real-time control/telemetry logic.
+- **Key Design Work:**
+  - Built a non-blocking telemetry pipeline using DMA-driven UART to send data to the server
+  - Built a non-blocking command execution pipeline that processes remote commands without stalling the main loop.
+  - Built an update pipeline that downloads an update from the server and stores the firmware in an external flash memory.
+  - Added a bootloader that checks the update integrity and installs the downloaded firmware. 
 - **Tech stack:** C, FreeRTOS, TinyCrypt (AES-CMAC/CTR), STM32 HAL
 
 ---
@@ -39,7 +40,7 @@ Hardware-accelerated autonomous control system inspired by heliotropic behavior.
   - Implemented the control loop fully in hardware (no MCU in the loop) to exploit parallelism and precise timing.
   - Added a custom IIR digital filter for signal conditioning.
   - Wrote a bare-metal HD44780 LCD driver with microsecond-level timing.
-- **Tech stack:** VHDL, XADC, PWM generation, Digital Filtering (IIR)  
+- **Tech stack:** VHDL, XADC, PWM generation  
 
 ---
 
@@ -49,11 +50,6 @@ Hardware-accelerated autonomous control system inspired by heliotropic behavior.
 - **Digital Design:** VHDL, Vivado, FPGA (Artix-7 / Basys 3), Logisim  
 - **Interfaces & Peripherals:** UART, SPI, I2C, DMA, ADC, Timers, PWM 
 - **Debug / Bring-up:** ST-LINK (SWD), UART logging, oscilloscope, board-level debugging
-
----
-
-## Currently
-- Preparing to compete in the TEKNOFEST Chip Design Competition (Microcontroller Design Category) with Team Marchip.
 
 ---
 
